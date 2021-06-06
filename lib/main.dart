@@ -28,7 +28,7 @@ class XylophoneApp extends StatelessWidget {
     );
   }
 
-  getKey(int index, Color color) {
+  Expanded getKey(int index, Color color) {
     return Expanded(
       child: FlatButton(
         onPressed: () {
